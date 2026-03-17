@@ -11,7 +11,7 @@ import geminiResponse from "./gemini.js"
 
 const app=express()
 app.use(cors({
-    origin:"https://sudesh-aura-bot-frontend.onrender.com",
+    origin:"https://sudesh-aura-bot.onrender.com",
     credentials:true
 }))
 const port=process.env.PORT || 5000
